@@ -1,0 +1,348 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	/*таблица*/
+	.like_date{
+	text-align: center;
+	float: none;
+	margin: 0;
+	padding-left: 0.24em;
+	clear: both;
+	}
+	.left_blog, .right_blog {
+		float:right;
+		border-left: none;
+		margin:0px ;
+		padding: 0px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.left_blog .img_blog img,
+	.right_blog .img_blog img{
+		display: block;
+		padding-left: 0px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #b6b6b6;
+		width: 100%;
+	}
+	.left_blog .content_blog h4,
+	.right_blog .content_blog h4{
+		text-align: justify;
+		padding-bottom: 10px;
+		margin: 0;
+		font-family: "Edmondsans-Medium";
+		font-size: 14px;
+		text-transform: uppercase;
+		color: #3f3f3f;
+	}
+	.content_blog{
+		padding-top: 20px;
+		padding-left: 0px;
+	}
+	.left_blog .content_blog p,
+	.right_blog .content_blog p{
+		text-align: justify;
+		font-family: "OpenSansRegular";
+		font-size: 13px;
+		line-height: 22pt;
+		color: #666666;
+	}
+
+	.content_blog .small{
+		color: #35ba90;
+		font-family: "OpenSansRegular";
+		font-size: 12px;
+	}
+	/*текст сверху*/
+	.top_txt_down.top_txt{
+		margin-top: 220px;
+	}
+	.top_txt{
+	margin: 40px auto;
+	color: #878787;
+	float: none;
+	}
+	.top_txt p{
+	font-family: "OpenSansLight";
+	font-size: 15pt;
+	background-color: rgba(17, 17, 17, .8);
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 3px;
+	}
+	p.up{
+		font-size: 15pt;
+		text-transform: uppercase;
+	}
+	/*заголовок топ*/
+	.main_top h2{
+		font-family: "OpenSansLight";
+		font-size: 15pt;
+		font-weight: normal;
+		text-transform: uppercase;
+		color: #666666;
+		line-height: 20pt;
+		text-align: center;
+	}
+	/*меню сверху*/
+	.mnu_items{
+		display: none;
+		float: right;
+		list-style-type: none;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		left: 0px;
+		width: 100%;
+		top: 80px;
+		border-radius: 5px;
+		background-color: rgba(17, 17, 17, .5);
+		z-index: 16;
+	}
+	.mnu_items li{
+		display: inline-block;
+		margin: 0;
+		padding: 0px;
+		text-transform: uppercase;
+	}
+
+	.mnu_items .mnu_item a{
+		display: block;
+		margin: 0;
+		padding: 20px;
+		line-height: 40px;
+		color: #d0d1d2;
+		font-weight: bold;
+		text-decoration: none;
+		font-family: "OpenSansBold";
+		font-size: 16px;
+	}
+	.mnu_items li.mnu_item a:hover,
+	.mnu_items li.mnu_item a:active{
+	background-color: #fff;
+	color: #1f1f1f;
+	}
+
+	/*подменю сверху*/
+	.sum_mnu_items{
+	opacity: 0;
+	position: absolute;
+	background: #c7c7c7;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	z-index: 20;
+	min-width: 200px;
+	border-radius: 5px;
+	top: -9999em;
+	-webkit-transition: 0.5s opacity;
+	-o-transition: 0.5s opacity;
+	transition: 0.5s opacity;
+}
+	/******************************/
+	.sum_mnu_item a.sub_menu_link{
+	display:block;
+	padding-left: 10px;
+	border-top: 1px solid #929292;
+	font-family: "OpenSansBold";
+	color: #3b3b3b;
+	}
+	.sum_mnu_item a.sub_menu_link:hover{
+	background-color: #d5d5d5;
+	color: #3b3b3b;
+	}
+	.mnu_items li.mnu_item:first-child a{
+		padding-left: 20px;
+	}
+	.main_mnu_btn{
+		margin-top: 10px;
+		float: right;
+	}
+	/*************************************/
+	/*posts sverhu*/
+	.left_content, .center_content,
+	.right_content{
+	margin-top: 50px;
+	padding: 0;
+	border-bottom: 1px solid #b6b6b6;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	.right_content{
+		border-bottom: none;
+	}
+	.left_content{
+		margin-top: 0px;
+	}
+	/*меню снизу */
+	.min{/*class for min menu bottom*/
+		width: 100%;
+	}
+	.prepare, .retouch{
+	border-left: none;
+	text-align: center;
+	border-bottom: 1px solid #b6b6b6;
+	margin: 0;
+	}
+	.concept{
+		border-bottom: 1px solid #b6b6b6;
+		margin: 0;
+		text-align: center;
+	}
+	.finalize{
+		border-bottom: 1px solid #b6b6b6;
+		margin: 0;
+		text-align: center;
+	}
+	.retouch{
+		border-right: none;
+	}
+
+}
+@media only screen and (max-width : 960px) {
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/*меню сверху*/
+	.mnu_items{
+		display: none;
+		float: right;
+		list-style-type: none;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		left: -2px;
+		width: 100%;
+		top: 80px;
+		border-radius: 5px;
+		background-color: rgba(17, 17, 17, .5);
+		z-index: 16;
+	}
+	.mnu_items li{
+		display: block;
+		margin: 0;
+		padding: 0;
+		text-transform: uppercase;
+	}
+	.mnu_items .mnu_item a{
+		display: block;
+		margin: 0;
+		padding: 0;
+		line-height: 40px;
+		color: #d0d1d2;
+		font-weight: bold;
+		text-decoration: none;
+		padding-left: 0px;
+		font-family: "OpenSansBold";
+		font-size: 16px;
+	}
+	.mnu_items li a:hover,
+	.mnu_items li a:active{
+	background-color: #fff;
+	color: #1f1f1f;
+	}
+
+	/*подменю сверху*/
+	.sum_mnu_items{
+	opacity: none;
+	display: none;
+	position: relative;
+	background: #c7c7c7;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	z-index: 20;
+	min-width: 200px;
+	border-radius: 5px;
+	top: -9999em;
+	-webkit-transition: 0.5s opacity;
+	-o-transition: 0.5s opacity;
+	transition: 0.5s opacity;
+}
+	/******************************/
+	.sum_mnu_item a.sub_menu_link{
+	display:block;
+	padding-left: 10px;
+	border-top: 1px solid #929292;
+	font-family: "OpenSansBold";
+	color: #3b3b3b;
+	}
+	.sum_mnu_item a.sub_menu_link:hover{
+	background-color: #d5d5d5;
+	color: #3b3b3b;
+	}
+
+	/*******/
+	.mnu_items li.mnu_item:first-child a{
+		padding-left: 0px;
+	}
+
+	.main_mnu_btn{
+		margin-top: 10px;
+		float: right;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 240px) {
+	.logo_wr{
+	position: absolute;
+	float: left;
+	background-color: #bbb;
+	width: 100px;
+	border-bottom: 5px solid #ccc;
+	height: 85px;
+	z-index: 10;
+	}
+	.logo{
+	width: 80%;
+	height: auto;
+	display: block;
+	margin: 23px auto;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 991px){
+
+}
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
